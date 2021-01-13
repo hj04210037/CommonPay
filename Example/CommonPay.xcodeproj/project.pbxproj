@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C102A6E7418FDF57B5DD9FE /* libPods-CommonPay_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EBD3BD9422EC7A45781B21CC /* libPods-CommonPay_Example.a */; };
+		0FE30C1DC6B152F3320A6D89 /* libPods-CommonPay_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C2D10E6D911C5A428E2EA2 /* libPods-CommonPay_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
@@ -21,7 +21,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		F4BBEB5FFD97F23F27CD434D /* libPods-CommonPay_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E1B785E0CF9F780D63263C14 /* libPods-CommonPay_Tests.a */; };
+		FF21E51F82800494C9E5478D /* libPods-CommonPay_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB08426F76008F5AF62D0B13 /* libPods-CommonPay_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00C2D10E6D911C5A428E2EA2 /* libPods-CommonPay_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPay_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		06E0B1F325AE952F00CF5407 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		06E0B1F725AE954800CF5407 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		06E0B1FB25AE954F00CF5407 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
@@ -45,8 +46,7 @@
 		06E0B20925AE969F00CF5407 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		06E0B20A25AE969F00CF5407 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		06E0B20D25AE96AD00CF5407 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
-		1FD32AB52B1CA829992FC962 /* Pods-CommonPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPay_Tests.release.xcconfig"; path = "Target Support Files/Pods-CommonPay_Tests/Pods-CommonPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		508BFDB1F74F659F9917391B /* Pods-CommonPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPay_Example.debug.xcconfig"; path = "Target Support Files/Pods-CommonPay_Example/Pods-CommonPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3F24C22DE2A049F572EEF6DF /* Pods-CommonPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPay_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CommonPay_Tests/Pods-CommonPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		58E6C21859129715E98462E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CommonPay_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonPay_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,10 +70,10 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88F8343DF99E451428B7961A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B7EFF30B39CF776150B15A93 /* Pods-CommonPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPay_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CommonPay_Tests/Pods-CommonPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		B990FC1419B52EC56C5E3E37 /* Pods-CommonPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPay_Example.release.xcconfig"; path = "Target Support Files/Pods-CommonPay_Example/Pods-CommonPay_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E1B785E0CF9F780D63263C14 /* libPods-CommonPay_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPay_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBD3BD9422EC7A45781B21CC /* libPods-CommonPay_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPay_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91A28F5B4F7248E3746F5718 /* Pods-CommonPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPay_Example.debug.xcconfig"; path = "Target Support Files/Pods-CommonPay_Example/Pods-CommonPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		9D0C1B4A67D362DE720E86EA /* Pods-CommonPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPay_Example.release.xcconfig"; path = "Target Support Files/Pods-CommonPay_Example/Pods-CommonPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A985AECED492CAE4710836E3 /* Pods-CommonPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CommonPay_Tests.release.xcconfig"; path = "Target Support Files/Pods-CommonPay_Tests/Pods-CommonPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BB08426F76008F5AF62D0B13 /* libPods-CommonPay_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPay_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F43A9EE60B451FE5B607349D /* CommonPay.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CommonPay.podspec; path = ../CommonPay.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
@@ -83,7 +83,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				2C102A6E7418FDF57B5DD9FE /* libPods-CommonPay_Example.a in Frameworks */,
+				FF21E51F82800494C9E5478D /* libPods-CommonPay_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +94,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				F4BBEB5FFD97F23F27CD434D /* libPods-CommonPay_Tests.a in Frameworks */,
+				0FE30C1DC6B152F3320A6D89 /* libPods-CommonPay_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +139,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				EBD3BD9422EC7A45781B21CC /* libPods-CommonPay_Example.a */,
-				E1B785E0CF9F780D63263C14 /* libPods-CommonPay_Tests.a */,
+				BB08426F76008F5AF62D0B13 /* libPods-CommonPay_Example.a */,
+				00C2D10E6D911C5A428E2EA2 /* libPods-CommonPay_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -204,10 +204,10 @@
 		A00A8B55E46DAAFAC628E153 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				508BFDB1F74F659F9917391B /* Pods-CommonPay_Example.debug.xcconfig */,
-				B990FC1419B52EC56C5E3E37 /* Pods-CommonPay_Example.release.xcconfig */,
-				B7EFF30B39CF776150B15A93 /* Pods-CommonPay_Tests.debug.xcconfig */,
-				1FD32AB52B1CA829992FC962 /* Pods-CommonPay_Tests.release.xcconfig */,
+				91A28F5B4F7248E3746F5718 /* Pods-CommonPay_Example.debug.xcconfig */,
+				9D0C1B4A67D362DE720E86EA /* Pods-CommonPay_Example.release.xcconfig */,
+				3F24C22DE2A049F572EEF6DF /* Pods-CommonPay_Tests.debug.xcconfig */,
+				A985AECED492CAE4710836E3 /* Pods-CommonPay_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -219,11 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CommonPay_Example" */;
 			buildPhases = (
-				8A19BF8AA0D7A144474BE29D /* [CP] Check Pods Manifest.lock */,
+				F83852C839B68BFCE63E49F9 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				E3F0A855D08A5D69F2EBD4B5 /* [CP] Copy Pods Resources */,
+				8F516A6DACD5205789515EB8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,7 +238,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CommonPay_Tests" */;
 			buildPhases = (
-				B8073247AD0A2D41C2F4BCA5 /* [CP] Check Pods Manifest.lock */,
+				793E293D1D89684E8B27838E /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
@@ -311,29 +311,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		8A19BF8AA0D7A144474BE29D /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-CommonPay_Example-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B8073247AD0A2D41C2F4BCA5 /* [CP] Check Pods Manifest.lock */ = {
+		793E293D1D89684E8B27838E /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -355,7 +333,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E3F0A855D08A5D69F2EBD4B5 /* [CP] Copy Pods Resources */ = {
+		8F516A6DACD5205789515EB8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,6 +349,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CommonPay_Example/Pods-CommonPay_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F83852C839B68BFCE63E49F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CommonPay_Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -537,7 +537,7 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 508BFDB1F74F659F9917391B /* Pods-CommonPay_Example.debug.xcconfig */;
+			baseConfigurationReference = 91A28F5B4F7248E3746F5718 /* Pods-CommonPay_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -555,7 +555,7 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B990FC1419B52EC56C5E3E37 /* Pods-CommonPay_Example.release.xcconfig */;
+			baseConfigurationReference = 9D0C1B4A67D362DE720E86EA /* Pods-CommonPay_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = "";
@@ -572,7 +572,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B7EFF30B39CF776150B15A93 /* Pods-CommonPay_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3F24C22DE2A049F572EEF6DF /* Pods-CommonPay_Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -597,7 +597,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1FD32AB52B1CA829992FC962 /* Pods-CommonPay_Tests.release.xcconfig */;
+			baseConfigurationReference = A985AECED492CAE4710836E3 /* Pods-CommonPay_Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (

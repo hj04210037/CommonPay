@@ -8,7 +8,7 @@
 
 #import "HJtest.h"
 #import "WXApi.h"
-#import <AlipaySDK.framework/Headers/AlipaySDK.h>
+#import <AlipaySDK/AlipaySDK.h>
 
 @implementation HJtest
 - (void)test

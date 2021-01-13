@@ -68,7 +68,7 @@ Pod::Spec.new do |s|
   # s.frameworks = 'UIKit', 'MapKit'
 #   s.dependency 'AFNetworking'
   
-   s.dependency 'AlipaySDK-iOS'
+  s.dependency 'AlipaySDK-iOS'
   s.dependency 'WechatOpenSDK'
   
 #    pod  'AlipaySDK-iOS'

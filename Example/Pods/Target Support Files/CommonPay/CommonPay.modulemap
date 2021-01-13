@@ -1,6 +1,0 @@
-framework module CommonPay {
-  umbrella header "CommonPay-umbrella.h"
-
-  export *
-  module * { export * }
-}
