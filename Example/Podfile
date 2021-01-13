@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'CommonPay_Example' do
+  pod 'CommonPay', :path => '../'
+
+  target 'CommonPay_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
