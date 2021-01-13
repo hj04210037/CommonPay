@@ -1,0 +1,6 @@
+module Pods_CommonPay_Tests {
+  umbrella header "Pods-CommonPay_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

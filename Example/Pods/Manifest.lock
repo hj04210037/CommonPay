@@ -1,0 +1,35 @@
+PODS:
+  - AlipaySDK-iOS (15.7.9)
+  - CommonPay (0.1.0):
+    - AlipaySDK-iOS
+    - WechatOpenSDK
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WechatOpenSDK (1.8.7.1)
+
+DEPENDENCIES:
+  - CommonPay (from `../`)
+  - FBSnapshotTestCase
+
+SPEC REPOS:
+  trunk:
+    - AlipaySDK-iOS
+    - FBSnapshotTestCase
+    - WechatOpenSDK
+
+EXTERNAL SOURCES:
+  CommonPay:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlipaySDK-iOS: 94ff4c0e17c5e7d126b8207596d5033006534c25
+  CommonPay: 308b763fe8174978f0e3966da969dfd44426e042
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+
+PODFILE CHECKSUM: c10e00d7cc62da647908d2936671d0335bbe64f0
+
+COCOAPODS: 1.10.1

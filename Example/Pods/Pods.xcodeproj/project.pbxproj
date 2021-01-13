@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "AlipaySDK-iOS";
+			productName = "AlipaySDK-iOS";
+		};
+		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FAB6FBD8CB32B7592EB2458485D2E2A3 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = WechatOpenSDK;
+			productName = WechatOpenSDK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = DB77086EC86E0E2C366A7E14CB99FAD0 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		19A5B89675FC42FCDBC540A564A04249 /* HJtest.m in Sources */ = {isa = PBXBuildFile; fileRef = 244BDBE3B31DF3D70186C3AC2F2FEAE1 /* HJtest.m */; };
+		19F37CC50E23DE48D4345923514B8F98 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B9E095AFFE55525A902AFC01CDD2BDE6 /* UIApplication+StrictKeyWindow.m */; };
+		4AB5C62698C12F0CF7DCBBFD66768BD9 /* CommonPay-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ACC534E8D4BD8673DA13F3888B113C0F /* CommonPay-dummy.m */; };
+		50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 245F75DAAFBD84D90DC96FB43699C965 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5099749D208D7639C05CAD14E7E8C145 /* Pods-CommonPay_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4FCE54FB5D915B98FD3B6F454B8B2CB /* Pods-CommonPay_Example-dummy.m */; };
+		5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 468311DB15BD97EF87FB8B1A69202248 /* FBSnapshotTestCasePlatform.m */; };
+		77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF71B7E58AD39138D9A53B2D287A2B60 /* FBSnapshotTestController.m */; };
+		87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05F7266C0D00BBA7B7D6D1E074CF4B64 /* SwiftSupport.swift */; };
+		8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B495477B7D3D8BFC4BCAB48A2FFFF8D /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = B03CB0A9B4C91CE5449A377334D7CA35 /* UIImage+Compare.m */; };
+		A929BBC99B7C19956D717718CAE16647 /* Pods-CommonPay_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52DB11C9D61CDE1EF2CE4C415B6D3DA7 /* Pods-CommonPay_Tests-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F90C0CF01126E5C6A62096010FC45A54 /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 6899C8852F55C490D210C81A4AFF71C2 /* UIImage+Diff.m */; };
+		C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 386E6FD4E3764F8BC798375406005631 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = F0F6035702961B470FD3D9E2DF3B4222 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CBD39660A2AEA338F8D2CE18BEBECEF9 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D49E91FFE525C556509D7461A6E01472 /* UIImage+Snapshot.m */; };
+		D5FAA5ED25EAEE61F6476D63E0CA9894 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AD155946570BD9A8EA936D1572F2FF49 /* FBSnapshotTestCase-dummy.m */; };
+		D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D1EF37C272DF998056A5C50D885326F /* FBSnapshotTestCase.m */; };
+		E616BDB5371E9D03C7A3C49F2E4F7D48 /* HJtest.h in Headers */ = {isa = PBXBuildFile; fileRef = B5C4EBDD51560C9102704419D00645E5 /* HJtest.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0200B820450C52C16D3D32723BB3734E /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F5AEA739B6D656AE96B17E2D6830BE9F /* Pods-CommonPay_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 402D5F22F52AEF23F92FF1AC898D29F7 /* Pods-CommonPay_Tests-dummy.m */; };
+		F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE806C1FDCF77A63F26AC9D836357F9 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Project, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03C73B4D27C470AC0F590B2BA497811C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+		44C5DF494DFD649E5129F9DB8CACAAC0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+		75C43F77A0728B7FF4F9F7B6F1560D50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 416E14DDC6C4FA65D60D94D5A6618DAC;
+			remoteInfo = CommonPay;
+		};
+		8B47155C2154751C8B14DB995A9C37C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC747CCC424E9D1E5954A27C4EE7E26A;
+			remoteInfo = "Pods-CommonPay_Example";
+		};
+		C53A5C4AEA136037557AB533819C17DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+		F22C14D8E40832557744595177B9670F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98A98149697C80CEF8D5772791E92E66;
+			remoteInfo = FBSnapshotTestCase;
+		};
+		FDD009841F1139BD4E260FD937BA7D9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
+			remoteInfo = WechatOpenSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00956347FF37EE8DC0EE72049D711EA7 /* libCommonPay.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libCommonPay.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0200B820450C52C16D3D32723BB3734E /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
+		030FF410D8F019C2CAFD5C1E56401630 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		05F7266C0D00BBA7B7D6D1E074CF4B64 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		0B9B8A0016C28DCFD72EC63722C0E5F2 /* Pods-CommonPay_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonPay_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D1EF37C272DF998056A5C50D885326F /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
+		16000F428F85A29C788AC02F1C0BF8EE /* libPods-CommonPay_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPay_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		17942BE190DC133477B5B1AC7BC1E88F /* Pods-CommonPay_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CommonPay_Tests.modulemap"; sourceTree = "<group>"; };
+		197E80DEF7FFCF357667436E8E0CF81F /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		1BF04264CCB14642E4E81B312DADF0D2 /* CommonPay-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CommonPay-prefix.pch"; sourceTree = "<group>"; };
+		244BDBE3B31DF3D70186C3AC2F2FEAE1 /* HJtest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HJtest.m; path = CommonPay/Classes/HJtest.m; sourceTree = "<group>"; };
+		245F75DAAFBD84D90DC96FB43699C965 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
+		2A987FA7AD5AB645DF41172604FB79DA /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		2C925331D64CBB7CE3720A07E0E91CD9 /* Pods-CommonPay_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonPay_Example.release.xcconfig"; sourceTree = "<group>"; };
+		386E6FD4E3764F8BC798375406005631 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
+		3B495477B7D3D8BFC4BCAB48A2FFFF8D /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
+		402D5F22F52AEF23F92FF1AC898D29F7 /* Pods-CommonPay_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonPay_Tests-dummy.m"; sourceTree = "<group>"; };
+		4528EC4731224AD76AF06904CDBBEC6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		468311DB15BD97EF87FB8B1A69202248 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
+		4B2ACD0AB2DA566BC9CB3D72DC88E2D2 /* Pods-CommonPay_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonPay_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		509BB0B274FC634ED41BD18713417220 /* Pods-CommonPay_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonPay_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		52DB11C9D61CDE1EF2CE4C415B6D3DA7 /* Pods-CommonPay_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CommonPay_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFBSnapshotTestCase.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6339DECA90769185B8FC3529361C7775 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		635E84EE38009A85859EF59890229883 /* Pods-CommonPay_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CommonPay_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6899C8852F55C490D210C81A4AFF71C2 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
+		7F1A73AA6C8E9F3F6C57151580835505 /* Pods-CommonPay_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonPay_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		86C98FB145C3442FFA8F743AF75B0685 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
+		8E552A4AF59A628E47A42BC0BABCE669 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		95FD433F43858E9C5C7F5CDCD466F909 /* CommonPay.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonPay.debug.xcconfig; sourceTree = "<group>"; };
+		9B672B66A7A1BED7891AEDD00E7699A4 /* AlipaySDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8C9A65EAE237F12A06DB11BC249C3E9 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
+		AAE806C1FDCF77A63F26AC9D836357F9 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
+		AC7F7C840E1D34842FD9427292A4DC25 /* Pods-CommonPay_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CommonPay_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ACC534E8D4BD8673DA13F3888B113C0F /* CommonPay-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CommonPay-dummy.m"; sourceTree = "<group>"; };
+		AD155946570BD9A8EA936D1572F2FF49 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
+		B03CB0A9B4C91CE5449A377334D7CA35 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		B5C4EBDD51560C9102704419D00645E5 /* HJtest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HJtest.h; path = CommonPay/Classes/HJtest.h; sourceTree = "<group>"; };
+		B74876386FB4CC111C03E650E4C36933 /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
+		B9E095AFFE55525A902AFC01CDD2BDE6 /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
+		BA4DC7F75D85B21476FFB11D4A9C0260 /* CommonPay.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CommonPay.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C0C65843B6C2984F618DB273823DE14C /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		CC26845F975114E4ECCA845448A7940B /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
+		CC72899E2242DF180D0743A43178806E /* Pods-CommonPay_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CommonPay_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D48477E5CBE23C604FFBF88A6D5CAA64 /* libPods-CommonPay_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CommonPay_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D49E91FFE525C556509D7461A6E01472 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
+		D4AFACF146CA99E1FEE9F929E92F4F5D /* Pods-CommonPay_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CommonPay_Example-resources.sh"; sourceTree = "<group>"; };
+		DB77086EC86E0E2C366A7E14CB99FAD0 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
+		DC662685714B9F9D3AA2F81684A47BAA /* CommonPay.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CommonPay.release.xcconfig; sourceTree = "<group>"; };
+		DF71B7E58AD39138D9A53B2D287A2B60 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
+		E397D7D8BC08607BAADADEFF32CB89F7 /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		E7B8D7DF9064DE627D573732843DDB51 /* AlipaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F6035702961B470FD3D9E2DF3B4222 /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
+		F4FCE54FB5D915B98FD3B6F454B8B2CB /* Pods-CommonPay_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CommonPay_Example-dummy.m"; sourceTree = "<group>"; };
+		F6AFF55E744DD683F4FBFE5C87235823 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		F7A95C2AF997B810387FD89BFED1EB3B /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
+		F90C0CF01126E5C6A62096010FC45A54 /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1CEECC99BBEC723A29C519694ABEC00B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		26D847F2482FB785565E01DAC1F13337 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CA8F5F6BDE998C743F4F91363FFD6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6DEE8838DF8008C3C4B1D6FD6621899 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D7E61F88D68390F522C4504AB22F576 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DB77086EC86E0E2C366A7E14CB99FAD0 /* FBSnapshotTestCase.h */,
+				0D1EF37C272DF998056A5C50D885326F /* FBSnapshotTestCase.m */,
+				245F75DAAFBD84D90DC96FB43699C965 /* FBSnapshotTestCasePlatform.h */,
+				468311DB15BD97EF87FB8B1A69202248 /* FBSnapshotTestCasePlatform.m */,
+				0200B820450C52C16D3D32723BB3734E /* FBSnapshotTestController.h */,
+				DF71B7E58AD39138D9A53B2D287A2B60 /* FBSnapshotTestController.m */,
+				3B495477B7D3D8BFC4BCAB48A2FFFF8D /* UIApplication+StrictKeyWindow.h */,
+				B9E095AFFE55525A902AFC01CDD2BDE6 /* UIApplication+StrictKeyWindow.m */,
+				F0F6035702961B470FD3D9E2DF3B4222 /* UIImage+Compare.h */,
+				B03CB0A9B4C91CE5449A377334D7CA35 /* UIImage+Compare.m */,
+				386E6FD4E3764F8BC798375406005631 /* UIImage+Diff.h */,
+				6899C8852F55C490D210C81A4AFF71C2 /* UIImage+Diff.m */,
+				AAE806C1FDCF77A63F26AC9D836357F9 /* UIImage+Snapshot.h */,
+				D49E91FFE525C556509D7461A6E01472 /* UIImage+Snapshot.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		109B60A5227E8E77848EE6A60AF81770 /* AlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CA6258276D665C999415BEABC5B2411F /* Frameworks */,
+				C289E82F7BD4A72AD2B0187825599AA2 /* Resources */,
+				7A38B17A38BFC1985206300A27B2317B /* Support Files */,
+			);
+			path = "AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		143C46A39AAA01CBAA9133616D04D76E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00956347FF37EE8DC0EE72049D711EA7 /* libCommonPay.a */,
+				5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */,
+				D48477E5CBE23C604FFBF88A6D5CAA64 /* libPods-CommonPay_Example.a */,
+				16000F428F85A29C788AC02F1C0BF8EE /* libPods-CommonPay_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25A28F152B5DCD811975878C58381B40 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DC87E28B87CA9723B9B03A66DD7D5080 /* Pods-CommonPay_Example */,
+				74B3853326AE42245EA70931E337BA6F /* Pods-CommonPay_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3EA24121DBDFB8E6EC9BACB45B961892 /* CommonPay */ = {
+			isa = PBXGroup;
+			children = (
+				B5C4EBDD51560C9102704419D00645E5 /* HJtest.h */,
+				244BDBE3B31DF3D70186C3AC2F2FEAE1 /* HJtest.m */,
+				792105CDAF19CCADACC098934FF40DC6 /* Pod */,
+				EE49DC02160248D9BAEF4F258CD5CB6E /* Support Files */,
+			);
+			name = CommonPay;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		41519579994080BD85C41389DC345DB9 /* FBSnapshotTestCase */ = {
+			isa = PBXGroup;
+			children = (
+				0D7E61F88D68390F522C4504AB22F576 /* Core */,
+				B2452DBF11D86402BC183322AAF5E8B8 /* Support Files */,
+				E337A448DF151FE0AE8BC459B8BB8147 /* SwiftSupport */,
+			);
+			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		4CEC2302F23313583C24ADB51A6F7A5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				109B60A5227E8E77848EE6A60AF81770 /* AlipaySDK-iOS */,
+				41519579994080BD85C41389DC345DB9 /* FBSnapshotTestCase */,
+				CD4C6C896868FA9875519CD92257C390 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6C3E4A841D4EB2ABB6F68A1521F18798 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7A95C2AF997B810387FD89BFED1EB3B /* WechatOpenSDK.debug.xcconfig */,
+				197E80DEF7FFCF357667436E8E0CF81F /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		74B3853326AE42245EA70931E337BA6F /* Pods-CommonPay_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				17942BE190DC133477B5B1AC7BC1E88F /* Pods-CommonPay_Tests.modulemap */,
+				AC7F7C840E1D34842FD9427292A4DC25 /* Pods-CommonPay_Tests-acknowledgements.markdown */,
+				635E84EE38009A85859EF59890229883 /* Pods-CommonPay_Tests-acknowledgements.plist */,
+				402D5F22F52AEF23F92FF1AC898D29F7 /* Pods-CommonPay_Tests-dummy.m */,
+				52DB11C9D61CDE1EF2CE4C415B6D3DA7 /* Pods-CommonPay_Tests-umbrella.h */,
+				7F1A73AA6C8E9F3F6C57151580835505 /* Pods-CommonPay_Tests.debug.xcconfig */,
+				CC72899E2242DF180D0743A43178806E /* Pods-CommonPay_Tests.release.xcconfig */,
+			);
+			name = "Pods-CommonPay_Tests";
+			path = "Target Support Files/Pods-CommonPay_Tests";
+			sourceTree = "<group>";
+		};
+		792105CDAF19CCADACC098934FF40DC6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				BA4DC7F75D85B21476FFB11D4A9C0260 /* CommonPay.podspec */,
+				F6AFF55E744DD683F4FBFE5C87235823 /* LICENSE */,
+				4528EC4731224AD76AF06904CDBBEC6C /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7A38B17A38BFC1985206300A27B2317B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7B8D7DF9064DE627D573732843DDB51 /* AlipaySDK-iOS.debug.xcconfig */,
+				9B672B66A7A1BED7891AEDD00E7699A4 /* AlipaySDK-iOS.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		B2452DBF11D86402BC183322AAF5E8B8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC26845F975114E4ECCA845448A7940B /* FBSnapshotTestCase.modulemap */,
+				AD155946570BD9A8EA936D1572F2FF49 /* FBSnapshotTestCase-dummy.m */,
+				86C98FB145C3442FFA8F743AF75B0685 /* FBSnapshotTestCase-prefix.pch */,
+				F90C0CF01126E5C6A62096010FC45A54 /* FBSnapshotTestCase-umbrella.h */,
+				6339DECA90769185B8FC3529361C7775 /* FBSnapshotTestCase.debug.xcconfig */,
+				A8C9A65EAE237F12A06DB11BC249C3E9 /* FBSnapshotTestCase.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FBSnapshotTestCase";
+			sourceTree = "<group>";
+		};
+		C289E82F7BD4A72AD2B0187825599AA2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B74876386FB4CC111C03E650E4C36933 /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CA6258276D665C999415BEABC5B2411F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8E552A4AF59A628E47A42BC0BABCE669 /* AlipaySDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD4C6C896868FA9875519CD92257C390 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				2A987FA7AD5AB645DF41172604FB79DA /* WechatAuthSDK.h */,
+				E397D7D8BC08607BAADADEFF32CB89F7 /* WXApi.h */,
+				030FF410D8F019C2CAFD5C1E56401630 /* WXApiObject.h */,
+				DE02117982C6B094A700A0BEB37A9370 /* Frameworks */,
+				6C3E4A841D4EB2ABB6F68A1521F18798 /* Support Files */,
+			);
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DDA19CBA3FAF111380FB5F3564957EEF /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				4CEC2302F23313583C24ADB51A6F7A5A /* Pods */,
+				143C46A39AAA01CBAA9133616D04D76E /* Products */,
+				25A28F152B5DCD811975878C58381B40 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC87E28B87CA9723B9B03A66DD7D5080 /* Pods-CommonPay_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0B9B8A0016C28DCFD72EC63722C0E5F2 /* Pods-CommonPay_Example-acknowledgements.markdown */,
+				509BB0B274FC634ED41BD18713417220 /* Pods-CommonPay_Example-acknowledgements.plist */,
+				F4FCE54FB5D915B98FD3B6F454B8B2CB /* Pods-CommonPay_Example-dummy.m */,
+				D4AFACF146CA99E1FEE9F929E92F4F5D /* Pods-CommonPay_Example-resources.sh */,
+				4B2ACD0AB2DA566BC9CB3D72DC88E2D2 /* Pods-CommonPay_Example.debug.xcconfig */,
+				2C925331D64CBB7CE3720A07E0E91CD9 /* Pods-CommonPay_Example.release.xcconfig */,
+			);
+			name = "Pods-CommonPay_Example";
+			path = "Target Support Files/Pods-CommonPay_Example";
+			sourceTree = "<group>";
+		};
+		DDA19CBA3FAF111380FB5F3564957EEF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EA24121DBDFB8E6EC9BACB45B961892 /* CommonPay */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DE02117982C6B094A700A0BEB37A9370 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0C65843B6C2984F618DB273823DE14C /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E337A448DF151FE0AE8BC459B8BB8147 /* SwiftSupport */ = {
+			isa = PBXGroup;
+			children = (
+				05F7266C0D00BBA7B7D6D1E074CF4B64 /* SwiftSupport.swift */,
+			);
+			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		EE49DC02160248D9BAEF4F258CD5CB6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACC534E8D4BD8673DA13F3888B113C0F /* CommonPay-dummy.m */,
+				1BF04264CCB14642E4E81B312DADF0D2 /* CommonPay-prefix.pch */,
+				95FD433F43858E9C5C7F5CDCD466F909 /* CommonPay.debug.xcconfig */,
+				DC662685714B9F9D3AA2F81684A47BAA /* CommonPay.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CommonPay";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		362D6CB2877B3704F6775214F385C3DE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D090AE4E77077826B54F3F0F8FD4B21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB3570007412B510F78B81D1A83E7FC9 /* FBSnapshotTestCase-umbrella.h in Headers */,
+				0978FEF1E925744EEAF7E76217BF4A86 /* FBSnapshotTestCase.h in Headers */,
+				50544CC39838135DDBF0047A180E97F4 /* FBSnapshotTestCasePlatform.h in Headers */,
+				EFA45E70CD6224C8B68738ED9E97CA21 /* FBSnapshotTestController.h in Headers */,
+				8C0B5EBDF83DDC66A416370F936B9A00 /* UIApplication+StrictKeyWindow.h in Headers */,
+				C3CA256CC5C3308862AFF3218B47B684 /* UIImage+Compare.h in Headers */,
+				C227FD1C858148327AD6CF45F9BC35E4 /* UIImage+Diff.h in Headers */,
+				F876F054886227B059B0778C6C1A0A83 /* UIImage+Snapshot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7DA586A5327AA5433A62FF5FF66A6084 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E616BDB5371E9D03C7A3C49F2E4F7D48 /* HJtest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DEC57D0E6C643BEA1712559FC8E9167 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A929BBC99B7C19956D717718CAE16647 /* Pods-CommonPay_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		416E14DDC6C4FA65D60D94D5A6618DAC /* CommonPay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E354A30675D145F922E5820BAA546235 /* Build configuration list for PBXNativeTarget "CommonPay" */;
+			buildPhases = (
+				7DA586A5327AA5433A62FF5FF66A6084 /* Headers */,
+				20E9889CCCC238518A91034C2C79FAC5 /* Sources */,
+				26D847F2482FB785565E01DAC1F13337 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD380A70DD6F2BFDB0271F5C7D7B097B /* PBXTargetDependency */,
+				CF8ED25C985E50C262F6A99282EB659E /* PBXTargetDependency */,
+			);
+			name = CommonPay;
+			productName = CommonPay;
+			productReference = 00956347FF37EE8DC0EE72049D711EA7 /* libCommonPay.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 252D6F021F665BE931E176A7F1CDBED5 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */;
+			buildPhases = (
+				7D090AE4E77077826B54F3F0F8FD4B21 /* Headers */,
+				A1401BD86D886C360D4729830C6BF16E /* Sources */,
+				1CEECC99BBEC723A29C519694ABEC00B /* Frameworks */,
+				FBA5CD29B04AECA92396367695CC380B /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FBSnapshotTestCase;
+			productName = FBSnapshotTestCase;
+			productReference = 5C4F31330DFA99D699E4BDC8C3573D73 /* libFBSnapshotTestCase.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		ACA187AE0D11561BA129E55140009C05 /* Pods-CommonPay_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 249DC78860C49B4278678CC1EBF7A1F0 /* Build configuration list for PBXNativeTarget "Pods-CommonPay_Tests" */;
+			buildPhases = (
+				8DEC57D0E6C643BEA1712559FC8E9167 /* Headers */,
+				1D5723733887CF5DC1687C25B967FF44 /* Sources */,
+				3CA8F5F6BDE998C743F4F91363FFD6BC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A77A1B49675BB817D1A06F122A8C0CDB /* PBXTargetDependency */,
+				FD5CF9EC607CCE79EC38EB5FA109F1EA /* PBXTargetDependency */,
+			);
+			name = "Pods-CommonPay_Tests";
+			productName = "Pods-CommonPay_Tests";
+			productReference = 16000F428F85A29C788AC02F1C0BF8EE /* libPods-CommonPay_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CC747CCC424E9D1E5954A27C4EE7E26A /* Pods-CommonPay_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94F7A1388A8B287D811B20562651D645 /* Build configuration list for PBXNativeTarget "Pods-CommonPay_Example" */;
+			buildPhases = (
+				362D6CB2877B3704F6775214F385C3DE /* Headers */,
+				4BD9AE0CA6E412B94E370F9839A81F53 /* Sources */,
+				C6DEE8838DF8008C3C4B1D6FD6621899 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C327A88EA1D58A74C821DF870064F9A /* PBXTargetDependency */,
+				029BD7FE855C3FAEA3820DE34254AC3C /* PBXTargetDependency */,
+				9C0756E307428B8B2C96840490CE3A58 /* PBXTargetDependency */,
+			);
+			name = "Pods-CommonPay_Example";
+			productName = "Pods-CommonPay_Example";
+			productReference = D48477E5CBE23C604FFBF88A6D5CAA64 /* libPods-CommonPay_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 143C46A39AAA01CBAA9133616D04D76E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */,
+				416E14DDC6C4FA65D60D94D5A6618DAC /* CommonPay */,
+				98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */,
+				CC747CCC424E9D1E5954A27C4EE7E26A /* Pods-CommonPay_Example */,
+				ACA187AE0D11561BA129E55140009C05 /* Pods-CommonPay_Tests */,
+				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		FBA5CD29B04AECA92396367695CC380B /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap",
+				"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/FBSnapshotTestCase-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D5723733887CF5DC1687C25B967FF44 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5AEA739B6D656AE96B17E2D6830BE9F /* Pods-CommonPay_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20E9889CCCC238518A91034C2C79FAC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AB5C62698C12F0CF7DCBBFD66768BD9 /* CommonPay-dummy.m in Sources */,
+				19A5B89675FC42FCDBC540A564A04249 /* HJtest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4BD9AE0CA6E412B94E370F9839A81F53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5099749D208D7639C05CAD14E7E8C145 /* Pods-CommonPay_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1401BD86D886C360D4729830C6BF16E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5FAA5ED25EAEE61F6476D63E0CA9894 /* FBSnapshotTestCase-dummy.m in Sources */,
+				D607E281B6103D213C2295CE59CC6658 /* FBSnapshotTestCase.m in Sources */,
+				5693A08347C5CFEBCEBAA2AED5FADEE1 /* FBSnapshotTestCasePlatform.m in Sources */,
+				77963FF7EE2C6BF810466A85D700811E /* FBSnapshotTestController.m in Sources */,
+				87D6F8413A7B375C836E57CCAD550A7F /* SwiftSupport.swift in Sources */,
+				19F37CC50E23DE48D4345923514B8F98 /* UIApplication+StrictKeyWindow.m in Sources */,
+				A457A948F248D2A52CD05F067B0C1367 /* UIImage+Compare.m in Sources */,
+				B8ADA30C051A2790FE88BE07CBFFF592 /* UIImage+Diff.m in Sources */,
+				CBD39660A2AEA338F8D2CE18BEBECEF9 /* UIImage+Snapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		029BD7FE855C3FAEA3820DE34254AC3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CommonPay;
+			target = 416E14DDC6C4FA65D60D94D5A6618DAC /* CommonPay */;
+			targetProxy = 75C43F77A0728B7FF4F9F7B6F1560D50 /* PBXContainerItemProxy */;
+		};
+		6C327A88EA1D58A74C821DF870064F9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = 44C5DF494DFD649E5129F9DB8CACAAC0 /* PBXContainerItemProxy */;
+		};
+		9C0756E307428B8B2C96840490CE3A58 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = FDD009841F1139BD4E260FD937BA7D9C /* PBXContainerItemProxy */;
+		};
+		A77A1B49675BB817D1A06F122A8C0CDB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FBSnapshotTestCase;
+			target = 98A98149697C80CEF8D5772791E92E66 /* FBSnapshotTestCase */;
+			targetProxy = F22C14D8E40832557744595177B9670F /* PBXContainerItemProxy */;
+		};
+		CD380A70DD6F2BFDB0271F5C7D7B097B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = C53A5C4AEA136037557AB533819C17DC /* PBXContainerItemProxy */;
+		};
+		CF8ED25C985E50C262F6A99282EB659E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 03C73B4D27C470AC0F590B2BA497811C /* PBXContainerItemProxy */;
+		};
+		FD5CF9EC607CCE79EC38EB5FA109F1EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-CommonPay_Example";
+			target = CC747CCC424E9D1E5954A27C4EE7E26A /* Pods-CommonPay_Example */;
+			targetProxy = 8B47155C2154751C8B14DB995A9C37C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		02D46C947E1FEF1D49D00E00669784E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7B8D7DF9064DE627D573732843DDB51 /* AlipaySDK-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0BAA6B5DFF3BE7C10DD060F399D8E479 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC662685714B9F9D3AA2F81684A47BAA /* CommonPay.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonPay/CommonPay-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${PODS_ROOT}/Headers/Private/CommonPay\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/CommonPay\"",
+					"\"${PODS_ROOT}/Headers/Public/WechatOpenSDK\"",
+					"\"$(SRCROOT)/AlipaySDK-iOS\"",
+					"\"${PODS_ROOT}/Headers/Public/AlipaySDK-iOS\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CommonPay;
+				PRODUCT_NAME = CommonPay;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E7558AE42DB25B301F61C77C1E83B0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A95C2AF997B810387FD89BFED1EB3B /* WechatOpenSDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34482D30FD411A3AFB66C3A0C45819CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6339DECA90769185B8FC3529361C7775 /* FBSnapshotTestCase.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		526007ECA20E01BE63460561C68C110B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B2ACD0AB2DA566BC9CB3D72DC88E2D2 /* Pods-CommonPay_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68911A9EA0BEAE676884F1CF3E518F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 197E80DEF7FFCF357667436E8E0CF81F /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CDAE9736C52407094B853BB7E2488EE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F1A73AA6C8E9F3F6C57151580835505 /* Pods-CommonPay_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonPay_Tests/Pods-CommonPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3C6594EAE79D3F1DF68DB19E0F4A9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B672B66A7A1BED7891AEDD00E7699A4 /* AlipaySDK-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D8539FDCE42AB07E78F876D98FE786BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95FD433F43858E9C5C7F5CDCD466F909 /* CommonPay.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/CommonPay/CommonPay-prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Private\"",
+					"\"${PODS_ROOT}/Headers/Private/CommonPay\"",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/CommonPay\"",
+					"\"${PODS_ROOT}/Headers/Public/WechatOpenSDK\"",
+					"\"$(SRCROOT)/AlipaySDK-iOS\"",
+					"\"${PODS_ROOT}/Headers/Public/AlipaySDK-iOS\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = CommonPay;
+				PRODUCT_NAME = CommonPay;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC9940D0E880E58038C6B51E2FEF2E6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC72899E2242DF180D0743A43178806E /* Pods-CommonPay_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CommonPay_Tests/Pods-CommonPay_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF352ABE909E396444DB885B85B287F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C925331D64CBB7CE3720A07E0E91CD9 /* Pods-CommonPay_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1E67B74B8AC230978E7231A084A210F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C9A65EAE237F12A06DB11BC249C3E9 /* FBSnapshotTestCase.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MODULEMAP_FILE = Headers/Public/FBSnapshotTestCase/FBSnapshotTestCase.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = FBSnapshotTestCase;
+				PRODUCT_NAME = FBSnapshotTestCase;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		249DC78860C49B4278678CC1EBF7A1F0 /* Build configuration list for PBXNativeTarget "Pods-CommonPay_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDAE9736C52407094B853BB7E2488EE8 /* Debug */,
+				DC9940D0E880E58038C6B51E2FEF2E6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		252D6F021F665BE931E176A7F1CDBED5 /* Build configuration list for PBXNativeTarget "FBSnapshotTestCase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34482D30FD411A3AFB66C3A0C45819CA /* Debug */,
+				F1E67B74B8AC230978E7231A084A210F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02D46C947E1FEF1D49D00E00669784E4 /* Debug */,
+				D3C6594EAE79D3F1DF68DB19E0F4A9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94F7A1388A8B287D811B20562651D645 /* Build configuration list for PBXNativeTarget "Pods-CommonPay_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				526007ECA20E01BE63460561C68C110B /* Debug */,
+				DF352ABE909E396444DB885B85B287F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E354A30675D145F922E5820BAA546235 /* Build configuration list for PBXNativeTarget "CommonPay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8539FDCE42AB07E78F876D98FE786BF /* Debug */,
+				0BAA6B5DFF3BE7C10DD060F399D8E479 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB6FBD8CB32B7592EB2458485D2E2A3 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E7558AE42DB25B301F61C77C1E83B0A /* Debug */,
+				68911A9EA0BEAE676884F1CF3E518F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
